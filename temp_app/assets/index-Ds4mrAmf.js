@@ -1,0 +1,1 @@
+import{_ as r}from"./_plugin-vue_export-helper-BCo6x5W8.js";import{M as e,P as o,L as a}from"./vendor-Dx-23Y5s.js";const n={class:"category-container"};const s=r({},[["render",function(r,s){return a(),e("div",n,[...s[0]||(s[0]=[o("h2",null,"分类管理",-1),o("p",null,"此页面用于管理代码片段的分类文件夹",-1)])])}],["__scopeId","data-v-2dd7a116"]]);export{s as default};

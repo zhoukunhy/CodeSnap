@@ -1,0 +1,134 @@
+/* 公共样式 */
+
+// Flex 布局
+.flex {
+  display: flex;
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+// 文本省略
+.ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.ellipsis-2 {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+// 清除浮动
+.clearfix::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+// 隐藏
+.hidden {
+  display: none !important;
+}
+
+// 文本对齐
+.text-left {
+  text-align: left;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+// 鼠标指针
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.cursor-move {
+  cursor: move;
+}
+
+// 禁用选择
+.no-select {
+  user-select: none;
+}
+
+// 间距工具类
+@for $i from 0 through 10 {
+  .mt-#{$i * 5} {
+    margin-top: #{$i * 5}px;
+  }
+  
+  .mb-#{$i * 5} {
+    margin-bottom: #{$i * 5}px;
+  }
+  
+  .ml-#{$i * 5} {
+    margin-left: #{$i * 5}px;
+  }
+  
+  .mr-#{$i * 5} {
+    margin-right: #{$i * 5}px;
+  }
+  
+  .pt-#{$i * 5} {
+    padding-top: #{$i * 5}px;
+  }
+  
+  .pb-#{$i * 5} {
+    padding-bottom: #{$i * 5}px;
+  }
+  
+  .pl-#{$i * 5} {
+    padding-left: #{$i * 5}px;
+  }
+  
+  .pr-#{$i * 5} {
+    padding-right: #{$i * 5}px;
+  }
+}
+
+// 深色模式
+.dark-mode {
+  background-color: #1e1e1e;
+  color: #d4d4d4;
+  
+  ::-webkit-scrollbar-track {
+    background: #2d2d2d;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #555;
+    
+    &:hover {
+      background: #666;
+    }
+  }
+}

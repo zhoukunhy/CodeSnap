@@ -1,0 +1,1 @@
+import{_ as e}from"./_plugin-vue_export-helper-BCo6x5W8.js";import{M as r,P as n,L as o}from"./vendor-Dx-23Y5s.js";const s={class:"tag-container"};const t=e({},[["render",function(e,t){return o(),r("div",s,[...t[0]||(t[0]=[n("h2",null,"标签管理",-1),n("p",null,"此页面用于管理代码片段的标签",-1)])])}],["__scopeId","data-v-1d333fbe"]]);export{t as default};

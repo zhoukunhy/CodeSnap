@@ -1,0 +1,30 @@
+{
+  "name": "code-snap",
+  "version": "0.1.0",
+  "description": "跨平台代码片段管理工具",
+  "author": "CodeSnap Team",
+  "main": "electron/main/index.js",
+  "dependencies": {
+    "@element-plus/icons-vue": "^2.3.2",
+    "better-sqlite3": "^9.4.3",
+    "clipboardy": "^4.0.0",
+    "dayjs": "^1.11.10",
+    "electron-store": "^8.1.0",
+    "element-plus": "^2.5.3",
+    "lodash": "^4.17.21",
+    "monaco-editor": "^0.45.0",
+    "pinia": "^2.1.7",
+    "prettier": "^3.2.4",
+    "vue": "^3.4.0",
+    "vue-router": "^4.2.5"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "better-sqlite3",
+      "electron",
+      "esbuild",
+      "lzma-native",
+      "vue-demi"
+    ]
+  }
+}
